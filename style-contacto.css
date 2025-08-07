@@ -1,0 +1,188 @@
+body{
+    font-family:'Montserrat', sans-serif;
+}
+header{
+    background:#bbbbbb;
+   padding: 0 0 0 10px;
+}
+form{
+    padding: 0 0 0 30%;
+}
+/*Aqui inicia lo del INDEX:HTML*/
+.Caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position:absolute;
+    top:  110px;
+    right: 0;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a:hover{
+    color:aqua;
+    text-decoration:underline;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+footer{
+    text-align:center;
+    background: url(imagenes/bg.jpg);
+    padding: 30px;
+}
+.Copyright{
+    color:#ffffff;
+    font-size:13px;
+    margin: 20px;
+}
+form{
+    margin: 40px 0;
+}
+form label, legend{
+    display: block;
+    margin: 0 0 10px;
+    font-size: 20px ;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+.Enviar{
+    width:40%;
+    padding: 30px, 0;
+    font-size: 18px;
+    font-weight:bold;
+    color: white;
+    background: orange;
+    border-radius:5px;
+    border: none;
+    transition: 1s all;
+    cursor:pointer;
+}
+.Enviar:hover{
+background: green;
+transform: scale(1.2) /*rotate(70deg);*/
+}
+table{
+    margin:40px 40px;
+}
+thead{
+    background: #555555;
+    color:#ffffff;
+    font-weight: bold;
+}
+td, th{
+    border:1px solid #000000;
+    padding: 8px 15px;
+}
+.imgBanner{
+    width: 100%;
+    box-shadow: 10px 10px 10px #000000, 10px -10px 10px #000000;
+}
+.encabezado{
+    width: 940px;
+    text-align: center;
+    font-size: 2em;
+    /*font-weight: bold;*/
+    margin: 0 auto;
+    clear: left;
+    padding: 1em 0;
+    background-image: #fefefe;
+
+}
+.Principal p{
+    text-align: center, left;
+    margin: 1px 0 1em;
+    
+}
+.Principal strong{
+    font-weight: bold;
+}
+.Principal em{
+    font-style: italic;
+}
+.utencilios{
+    width:10%;
+    float: left;
+    margin: 0 20px 20px 50px;
+    box-shadow: 10px -10px 10px #000000
+}
+.mapa p{
+    text-align: center;
+    margin: 0 0 2em;
+}
+.mapa {
+    padding:1em 0;
+    background: linear-gradient(#fefefe, #888888)
+}
+.mapa-contenido{
+    width: 940px;
+    margin: 10px 120px;
+}
+.encabezado-Diferenciales{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 auto;
+    clear: left;
+    padding: 1em 0;
+}
+.Diferenciales{
+    padding: 3em 0;
+    background: #888888;
+}
+.contenido-diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+.items{
+    line-height: 1.5;
+}
+.items::before{
+    content: "✦";
+}
+/*esto comentado da color a el primer item de diferenciales
+.items:first-child{
+font-weight: bold;
+}*/
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.imagenDiferenciales{
+    width: 40%;
+    box-shadow: 10px 10px 10px #000000;
+}
+.video{
+    width: 940px;
+    margin: 2em  auto;
+   padding: 22px 230px 22px;
+}
+@media screen and (max-width:480px){
+   .Caja,.Principal,.mapa,.video,.imgBanner{
+    width: auto;
+   }
+   h1{
+    text-align: center;
+   }
+   nav{
+    position: static;
+    margin: 1em 0;
+   }
+   .lista-diferenciales{
+    width: auto;
+    margin: center;
+   }
+}
